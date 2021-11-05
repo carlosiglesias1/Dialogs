@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DateTimePicker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fechaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Fecha" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DatePicker" />
+
+        <TextView
+            android:id="@+id/horaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Hora" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TimePicker" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
